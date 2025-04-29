@@ -1,5 +1,6 @@
 
-// 1. Governor Limits Management
+// 1. Governor Limits Management 
+// Added a new line
 // Example: Updating task statuses in bulk to avoid governor limit issues.
 List<Task__c> tasks = [SELECT Id, Status__c FROM Task__c WHERE Status__c = 'In Progress'];
 for (Task__c task : tasks) {
